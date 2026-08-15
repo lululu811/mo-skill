@@ -49,7 +49,7 @@
 
 ```bash
 # 克隆到本地
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/mo-skill.git
+git clone https://github.com/lululu811/mo-skill.git
 
 # 把 mo-skill 目录软链到 Claude Code 的 skills 目录
 # macOS / Linux:
