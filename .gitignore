@@ -1,0 +1,49 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude Code / plugin cache
+.claude-plugins/
+.claude-local/
+.omc/state/
+.omc/logs/
+.omc/handoffs/
+.omc/*.baseline-*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sensitive - do not commit
+.env
+.env.local
+*.key
+*.pem
+secrets.*
+
+# Temporary
+*.tmp
+*.bak
+
+# Large source materials - do not commit (copyright considerations)
+references/sources/transcripts/
+references/sources/articles/
+references/sources/books/
